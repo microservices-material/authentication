@@ -78,5 +78,4 @@ app.get('/token',function(request,response) {
 })
 
 
-console.log('authentication app ready')
-app.listen(8081)
+app.listen(8081, null, null, () => console.log('authentication app ready'))
